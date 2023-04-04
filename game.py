@@ -62,6 +62,7 @@ while still_playing:
     
     if balance > 0:
         play_again = input(f"Your remaining balance is {balance}. Would you like to continue playing? Y/N ")
+        machine.__init__()
     else:
         play_again = input("Your balance is insufficient to play again. Would you like to deposit a new amount? Y/N ")
         if play_again.upper() != "Y":

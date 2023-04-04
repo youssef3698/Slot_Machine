@@ -76,9 +76,6 @@ class SlotMachine():
         else:
             print("The symbol count is wrong")
             
-        if m_d == 0:
-            m_t = 1
-        else:
-            m_t = m_s * m_d
+        m_t = m_s * m_d
             
         return m_t
